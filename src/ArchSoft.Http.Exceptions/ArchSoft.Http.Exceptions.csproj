@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <!-- Package Information -->
+    <PackageId>ArchSoft.Http.Exceptions</PackageId>
+    <Version>1.0.2</Version>
+    <Authors>ArchSoft</Authors>
+    <Company>ArchSoft</Company>
+    <Copyright>© 2025 ArchSoft. All rights reserved.</Copyright>
+
+    <!-- Package Description -->
+    <Description>A comprehensive .NET library that provides strongly-typed HTTP exceptions for building robust REST APIs. Includes factory classes for bidirectional conversion between HTTP status codes and exceptions.</Description>
+
+    <!-- Repository Information -->
+    <PackageProjectUrl>https://github.com/archsoft-br/http-exceptions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/archsoft-br/http-exceptions</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+
+    <!-- Package Tags -->
+    <PackageTags>http;exceptions;rest;api;web;netcore;aspnet;error-handling;status-code</PackageTags>
+
+    <!-- Package Metadata -->
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+
+    <!-- Build Settings -->
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <IncludeSymbols>False</IncludeSymbols>
+
+    <!-- NuGet Package Settings -->
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE" Pack="true" PackagePath="" />
+    <None Include="..\..\README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+</Project>
